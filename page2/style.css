@@ -6,14 +6,21 @@ body {
   background-image: url(../properties/airTerjunSalodik.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
-  background-color: radial-gradient(square, rgba(255, 11, 11, 0.5), rgba(255, 0, 0, 0.5));
+}
+
+.navbar-menu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+  background-color: rgba(179, 0, 0, 0.692);
 }
 .navbar {
   display: flex;
   align-items: center;
   justify-content: space-around;
   padding: 1em;
-  background-color: transparent;
+  background-color: blue;
 }
 .navbar h3{
   background-color: rgb(251, 251, 251);
