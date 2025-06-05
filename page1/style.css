@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #255f38c0;
+    position: fixed;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5em;
+}
+.navlink{
+    justify-content: space-around;
+    gap: 2em;
+}
+.navlink a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.sec1{
+    top: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8em;
+    align-items: center;
+    background-image: linear-gradient(to top, #1c1b1b, 40%, transparent), url('../properties/tanjungKarang.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.title{
+    color: #ffffff;
+    font-size: 45px;
+    text-align: left;
+}
+.span1{
+    text-decoration: wavy;
+    font-size: 52px;
+}
+.span2{
+    font-style: italic;
+    font-size: 52px;
+}
+.sulteng{
+    text-decoration: underline;
+}
+.peta {
+  width: 25em;
+  height: 25em;
+  padding-right: 8em;
+}
+
+.sec2{
+    height: 50vh;
+    background-color: #1c1b1b;
+    justify-content: space-around;
+    gap: 5em;
+    display: flex;
+    align-items: center;
+    padding: 2em;
+    top: 2em;
+}
+.gambarPaisupok{
+    width: 30em;
+    height: 15em;
+    padding-left: 6em;
+}
+.penjelasanPaisupok{
+    color: #ffffff;
+    padding-right: 6em;
+}
+.detailPaisupok{
+    background-color: #255F38;
+    color: #ffffff;
+    text-align: left;
+    border-radius: 4px;
+    display: inline-flex;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.sec3{
+    height: 50vh;
+    background-color: #1c1b1b;
+    justify-content: space-around;
+    gap: 5em;
+    display: flex;
+    align-items: center;
+    padding: 2em;
+    top: 2em;
+} 
+.gambarMatantimali{
+    width: 30em;
+    height: 15em;
+    padding-left: 6em;
+}
+.penjelasanMatantimali{
+    color: #ffffff;
+    padding-right: 6em;
+}
+.detailMatantimali{
+    background-color: #255F38;
+    color: #ffffff;
+    text-align: left;
+    border-radius: 4px;
+    display: inline-flex;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+
+.sec4{
+    height: 50vh;
+    background-color: #1c1b1b;
+    justify-content: space-around;
+    gap: 5em;
+    display: flex;
+    align-items: center;
+    padding: 2em;
+    top: 2em;
+}
+.gambarTambing{
+    width: 30em;
+    height: 15em;
+    padding-left: 6em;
+}
+.penjelasanTambing{
+    color: #ffffff;
+    padding-right: 6em;
+}
+.detailTambing{
+    background-color: #255F38;
+    color: #ffffff;
+    text-align: left;
+    border-radius: 4px;
+    display: inline-flex;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.sec5{
+    height: 50vh;
+    background-color: #1c1b1b;
+    justify-content: space-around;
+    gap: 5em;
+    display: flex;
+    align-items: center;
+    padding: 2em;
+    top: 2em;
+}
+.gambarSalodik{
+    width: 30em;
+    height: 15em;
+    padding-left: 6em;
+}
+.penjelasanSalodik{
+    color: #ffffff;
+    padding-right: 6em;
+}
+.detailSalodik{
+    background-color: #255F38;
+    color: #ffffff;
+    text-align: left;
+    border-radius: 4px;
+    display: inline-flex;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.sec6{
+    height: 50vh;
+    background-color: #1c1b1b;
+    justify-content: space-around;
+    gap: 5em;
+    display: flex;
+    align-items: center;
+    padding: 2em;
+    top: 2em;
+}
+.gambarTanjungKarang{
+    width: 30em;
+    height: 15em;
+    padding-left: 6em;
+}
+.penjelasanTanjungKarang{
+    color: #ffffff;
+    padding-right: 6em;
+}
+.detailTanjungKarang{
+    background-color: #255F38;
+    color: #ffffff;
+    text-align: left;
+    border-radius: 4px;
+    display: inline-flex;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+
+
+
+
