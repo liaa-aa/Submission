@@ -24,6 +24,9 @@ header{
     color: #ffffff;
     text-decoration: none;
 }
+.navlink a:hover{
+    color: #1c1b1b;
+}
 .sec1{
     top: 0;
     height: 100vh;
@@ -73,6 +76,10 @@ header{
     width: 30em;
     height: 15em;
     padding-left: 6em;
+    transition: transform 0.3s ease;
+}
+.gambarPaisupok:hover{
+    transform: scale(1.5,1.5);
 }
 .penjelasanPaisupok{
     color: #ffffff;
@@ -87,6 +94,9 @@ header{
     padding: 6px 10px;
     margin-top: 15px;
     text-decoration: none;
+}
+.detailPaisupok:hover{
+    color: #1c1b1b;
 }
 
 .sec3{
@@ -103,6 +113,10 @@ header{
     width: 30em;
     height: 15em;
     padding-left: 6em;
+    transition: transform 0.3s ease;
+}
+.gambarMatantimali:hover{
+    transform: scale(1.5,1.5);
 }
 .penjelasanMatantimali{
     color: #ffffff;
@@ -118,7 +132,9 @@ header{
     margin-top: 15px;
     text-decoration: none;
 }
-
+.detailMatantimali:hover{
+    color: #1c1b1b;
+}
 
 .sec4{
     height: 50vh;
@@ -134,6 +150,10 @@ header{
     width: 30em;
     height: 15em;
     padding-left: 6em;
+    transition: transform 0.3s ease;
+}
+.gambarTambing:hover{
+    transform: scale(1.5,1.5);
 }
 .penjelasanTambing{
     color: #ffffff;
@@ -148,6 +168,9 @@ header{
     padding: 6px 10px;
     margin-top: 15px;
     text-decoration: none;
+}
+.detailTambing:hover{
+    color: #1c1b1b;
 }
 
 .sec5{
@@ -164,6 +187,10 @@ header{
     width: 30em;
     height: 15em;
     padding-left: 6em;
+    transition: transform 0.3s ease;
+}
+.gambarSalodik:hover{
+    transform: scale(1.5,1.5);
 }
 .penjelasanSalodik{
     color: #ffffff;
@@ -178,6 +205,9 @@ header{
     padding: 6px 10px;
     margin-top: 15px;
     text-decoration: none;
+}
+.detailSalodik:hover{
+    color: #1c1b1b;
 }
 
 .sec6{
@@ -194,6 +224,10 @@ header{
     width: 30em;
     height: 15em;
     padding-left: 6em;
+    transition: transform 0.3s ease;
+}
+.gambarTanjungKarang:hover{
+    transform: scale(1.5,1.5);
 }
 .penjelasanTanjungKarang{
     color: #ffffff;
@@ -208,6 +242,9 @@ header{
     padding: 6px 10px;
     margin-top: 15px;
     text-decoration: none;
+}
+.detailTanjungKarang:hover{
+    color: #1c1b1b;
 }
 
 footer{
@@ -226,14 +263,23 @@ footer{
     color:#ffffff;
     padding: 10px;
 }
+.socialMedia a:hover{
+    color: #1c1b1b;
+}
 .links a{
     color:#ffffff;
     margin: 20px;
     text-decoration: none;
 }
+.links a:hover{
+    color: #1c1b1b;
+}
 .credit{
     color: #ffffff;
     margin: 10px;
+}
+.credit p:hover{
+    color: #1c1b1b;
 }
 .credit a{
     color: #1c1b1b;
