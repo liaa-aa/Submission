@@ -1,0 +1,658 @@
+*{
+  padding:0;
+  margin: 0;
+}
+
+html, body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  background-image: url("../properties/airTerjunSalodik.jpg");
+  background-size: 100%; 
+  background-position-y: 160%;
+}
+
+/* nanti warnanya kasi sesuai dengan warna bacgroundnya */
+.header{
+  /* background-color: aqua; */
+  padding-bottom: 6%;
+}
+
+.nav-head{
+  position: fixed;
+  height: 20%;
+  width: 100%;
+  background: rgb(74, 231, 134, 0.3);
+  backdrop-filter: blur(3px);
+}
+
+.logo{
+  position: relative;
+  top: 10px;
+  left: 2vh;
+  width: 20%;
+  font-size: 30px;
+}
+
+.nav-link{
+  position: relative;
+  top: 0px;
+  display: flex;
+  gap: 2em;
+  left: 85%;
+}
+
+.nav-link a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.main{
+  position: relative;
+  background-image: url("../properties/airTerjunSalodik.jpg");
+  background-size: contain;
+  background-position-y:-135%;
+  padding-bottom: 80%;
+}
+
+.nav-main{
+  position: absolute;
+  justify-items: center;
+  bottom: 0%;
+  height: 80%;
+  width: 100%;
+  background: linear-gradient(to top, rgb(4, 70, 61) 87%,transparent );  
+}
+
+.nav-main h4{
+  position: relative;
+  top: 50px;
+  width: 59.8%;
+  text-align: center;
+  color: rgb(161, 161, 161);
+  background-color: black;
+  
+}
+
+.link-destination{
+  margin-top: 40px;
+  height: 8%;
+  width: 60%;
+  display: flex;
+  justify-content: center;    
+  align-items: center; 
+}
+
+.link-destination a{
+  color: white;
+  text-decoration: none;
+  padding: 20px 78px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(7px);            
+  border: 1px solid rgb(0, 0, 0);
+  transition: 1s;
+}
+
+.link-destination a:hover{
+  background: rgb(35, 133, 169);
+  transition: 1s;
+  color: rgb(0, 0, 0);
+  box-shadow: 0px 5px 5px rgb(65, 20, 20);
+}
+
+.penjelasan{
+  position: absolute;
+  top: 15%;
+  width: 100%;
+  height: 25%;
+  /* background-color: aqua; */
+}
+
+.penjelasan span{
+  position: absolute;
+  top: 5%;
+  left: 44%;
+  font-size: 30px;
+}
+
+.penjelasan p{
+  position: absolute;
+  top: 50px;
+  left: 15%;
+  text-align: center;
+}
+.lokasi{
+  position: absolute;
+  top: 38%;
+  left: 6%;
+  width: 40%;
+  height: 25%;
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(7px);
+  border-radius: 10px;
+}
+
+.lokasi img{
+  width: 45%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.lokasi img:hover{
+  transition: 1s;
+  color: rgb(0, 0, 0);
+  box-shadow: 0px 5px 5px black ;
+}
+
+.lokasi span{
+  position: absolute;
+  top: 8px;
+  left: 47%;
+  font-size: 30px;
+}
+
+.lokasi ul{
+  position: absolute;
+  top: 50px;
+  left: 49%;
+  width: 49%;
+  text-align: justify;
+}
+
+.harga{
+  position: absolute;
+  top: 38%;
+  left: 55%;
+  width: 40%;
+  height: 25%;
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(7px);
+  border-radius: 10px;
+}
+
+.harga img{
+  width: 45%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.harga img:hover{
+  transition: 1s;
+  color: rgb(0, 0, 0);
+  box-shadow: 0px 5px 5px black ;
+}
+
+.harga span{
+  position: absolute;
+  top: 8px;
+  left: 47%;
+  font-size: 30px;
+}
+
+.harga ul{
+  position: absolute;
+  top: 50px;
+  left: 49%;
+  width: 49%;
+  text-align: justify;
+}
+
+.dayaTarik{
+  position: absolute;
+  top: 67%;
+  left: 6%;
+  width: 40%;
+  height: 25%;
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(7px);
+  border-radius: 10px;
+}
+
+.dayaTarik img{
+  width: 45%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.dayaTarik img:hover{
+  transition: 1s;
+  color: rgb(0, 0, 0);
+  box-shadow: 0px 5px 5px black ;
+}
+
+.dayaTarik span{
+  position: absolute;
+  top: 8px;
+  left: 47%;
+  font-size: 30px;
+}
+
+.dayaTarik ul{
+  position: absolute;
+  top: 50px;
+  left: 49%;
+  width: 49%;
+  font-size: 14px;
+  text-align: justify;
+}
+
+.tips{
+  position: absolute;
+  top: 67%;
+  left: 55%;
+  width: 40%;
+  height: 25%;
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(7px);
+  border-radius: 10px;
+}
+
+.tips img{
+  width: 45%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.tips img:hover{
+  transition: 1s;
+  color: rgb(0, 0, 0);
+  box-shadow: 0px 5px 5px black ;
+}
+
+.tips span{
+  position: absolute;
+  top: 8px;
+  left: 47%;
+  font-size: 30px;
+}
+
+.tips ul{
+  position: absolute;
+  top: 50px;
+  left: 49%;
+  width: 49%;
+  text-align: justify;
+}
+
+.footer{
+  padding-bottom: 10%;
+  background-position-y: 60%;
+}
+
+.nav-foot{
+  position:absolute;
+  height: 20%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(2px);
+}
+
+.Copyright{
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  font-size: large;
+}
+
+.contact{
+  position: absolute;
+  left: 79%;
+  top: 25px;
+  justify-content: center;
+}
+
+.contact p{
+  position: absolute;
+  left: 120px;
+  top: -15px;
+  font-size: large;
+}
+
+@media  screen and (max-width: 400px) {
+*{
+  padding:0;
+  margin: 0;
+}
+
+html, body {
+  max-width: 140vw;
+  overflow-x: hidden;
+}
+
+body {
+  background-image: url("../properties/airTerjunSalodik.jpg");
+  background-size: 100%; 
+  background-position-y: 0%;
+}
+
+  /* nanti warnanya kasi sesuai dengan warna bacgroundnya */
+.header{
+  /* background-color: aqua; */
+  padding-bottom: 12%;
+}
+
+.nav-head{
+  position: fixed;
+  height: 20%;
+  width: 100%;
+  background: rgb(74, 231, 134, 0.3);
+  backdrop-filter: blur(3px);
+}
+
+.nav-head h3{
+  position: relative;
+  top: 10px;
+  right: 25vh;
+  /* background-color: aqua; */
+}
+.nav-link{
+  position: absolute;
+  top: 20px;
+  left: 42vh;
+  font-size: small;
+  display: flex;
+  gap: 2em;
+}
+
+.nav-link a{
+  text-decoration: none;
+  color: black;
+}
+
+.main{
+  position: relative;
+  background-image: url("../properties/airTerjunSalodik.jpg");
+  background-size: 150%;
+  background-position-y: 180vh;
+  background-position-x: 90vh;
+  padding-bottom: 150%;
+}
+
+.nav-main{
+  position: absolute;
+  justify-items: center;
+  padding-bottom: 100%;
+  top: 10%;
+  min-height: 100vh;
+  width: 100%;
+  /* background-color: aqua; */
+  z-index: 0;
+  background: linear-gradient(to top, rgb(4, 70, 61) 87%,transparent );  
+}
+
+.nav-main h4{
+  position: relative;
+  top: 50px;
+  width: 75%;
+  text-align: center;
+  color: azure;
+  font-size: smaller;
+  background-color: black;
+}
+
+.link-destination{
+  margin-top: 40px;
+  height: 8%;
+  width: 100%;
+  display: flex;
+  justify-content: center;    
+  align-items: center; 
+}
+
+.link-destination a{
+  color: white;
+  text-decoration: none;
+  padding: 5px 8px;
+  text-align: center;
+  font-size: small;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(7px);            
+  border: 1px solid rgb(0, 0, 0);
+  transition: 1s;
+}
+
+.link-destination a:hover{
+  background: rgb(35, 133, 169);
+  transition: 1s;
+  color: rgb(0, 0, 0);
+  box-shadow: 0px 5px 5px rgb(65, 20, 20);
+}
+
+.penjelasan{
+  position: absolute;
+  top: 10%;
+  width: 100%;
+  height: 25%;
+  /* background-color: aqua; */
+}
+
+.penjelasan span{
+  position: absolute;
+  top: 8%;
+  left: 34%;
+  font-size: large;
+}
+
+.penjelasan p{
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  text-align: center;
+  font-size: 10px;
+}
+.lokasi{
+  position: absolute;
+  top: 29%;
+  left: 5%;
+  width: 90%;
+  height: 15%;
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(7px);
+  border-radius: 10px;
+}
+
+.lokasi img{
+  width: 35%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.lokasi img:hover{
+  transition: 1s;
+  color: rgb(0, 0, 0);
+  box-shadow: 0px 5px 5px black ;
+}
+
+.lokasi span{
+  position: absolute;
+  top: 3px;
+  left: 37%;
+  font-size: 20px;
+}
+
+.lokasi ul{
+  position: absolute;
+  top: 25px;
+  left: 40%;
+  width: 56%;
+  text-align: justify;
+  font-size: 65%;
+}
+
+.harga{
+  position: absolute;
+  top: 46%;
+  left: 5%;
+  width: 90%;
+  height: 15%;
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(7px);
+  border-radius: 10px;
+}
+
+.harga img{
+  width: 35%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.harga img:hover{
+  transition: 1s;
+  color: rgb(0, 0, 0);
+  box-shadow: 0px 5px 5px black ;
+}
+
+.harga span{
+  position: absolute;
+  top: 3px;
+  left: 37%;
+  font-size: 20px;
+}
+
+.harga ul{
+  position: absolute;
+  top: 25px;
+  left: 40%;
+  width: 56%;
+  text-align: justify;
+  font-size: 64%;
+}
+
+.dayaTarik{
+  position: absolute;
+  top: 63%;
+  left: 5%;
+  width: 90%;
+  height: 15%;
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(7px);
+  border-radius: 10px;
+}
+
+.dayaTarik img{
+  width: 35%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.dayaTarik img:hover{
+  transition: 1s;
+  color: rgb(0, 0, 0);
+  box-shadow: 0px 5px 5px black ;
+}
+
+.dayaTarik span{
+  position: absolute;
+  top: 3px;
+  left: 37%;
+  font-size: 20px;
+}
+
+.dayaTarik ul{
+  position: absolute;
+  top: 26px;
+  left: 40%;
+  width: 56%;
+  text-align: justify;
+  font-size: 58%;
+}
+
+.tips{
+  position: absolute;
+  top: 80%;
+  left: 5%;
+  width: 90%;
+  height: 15%;
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(7px);
+  border-radius: 10px;
+}
+
+.tips img{
+  width: 35%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.tips img:hover{
+  transition: 1s;
+  color: rgb(0, 0, 0);
+  box-shadow: 0px 5px 5px black ;
+}
+
+.tips span{
+  position: absolute;
+  top: 3px;
+  left: 37%;
+  font-size: 20px;
+}
+
+.tips ul{
+  position: absolute;
+  top: 25px;
+  left: 40%;
+  width: 56%;
+  text-align: justify;
+  font-size: 65%;
+}
+
+.footer{
+  padding-bottom: 10%;
+  background-position-y: 60%;
+}
+
+.nav-foot{
+  position:absolute;
+  height: 10%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(2px);
+}
+
+.Copyright{
+  position: absolute;
+  top: 11px;
+  font-size: 10px;
+}
+
+.contact{
+  position: absolute;
+  left: 82%;
+  top: 18px;
+  justify-content: center;
+  font-size: 10px;
+}
+
+.contact p{
+  position: absolute;
+  left: 0px;
+  top: -8px;
+  width: 100px;
+  /* background-color: aqua; */
+}
+
+.contact svg{
+  height: 30px;
+  width: 20px;
+}
+}
