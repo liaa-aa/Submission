@@ -16,38 +16,34 @@ body {
 
 /* nanti warnanya kasi sesuai dengan warna bacgroundnya */
 .header{
-  /* background-color: aqua; */
-  padding-bottom: 6%;
+  background-color: aqua;
 }
 
 .nav-head{
   position: fixed;
-  height: 20%;
+  z-index: 10000;
+  height: 50px;
   width: 100%;
-  background: rgb(74, 231, 134, 0.3);
-  backdrop-filter: blur(3px);
-}
-
-.logo{
-  position: relative;
-  top: 10px;
-  left: 2vh;
-  width: 20%;
-  font-size: 30px;
+  background-color: #1f7d53a9;
+  display: fle;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav-link{
-  position: relative;
-  top: 0px;
+  position: fixed;
+  top: 10px;
   display: flex;
+  justify-content: center;
   gap: 2em;
-  left: 85%;
+  right: 2em;
+  color: white;
 }
 
 .nav-link a{
   text-decoration: none;
-  color: black;
-  font-size: 20px;
+  color: white;
+  align-items: center;
 }
 
 .main{
