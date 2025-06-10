@@ -9,7 +9,7 @@ html, body {
 }
 
 body {
-  background-image: url("../properties/airTerjunSalodik.jpg");
+  background-image: url("../properties/matantimali2.jpg");
   background-size: 100%; 
   background-position-y: 140%;
 }
@@ -46,9 +46,9 @@ body {
 
 .main{
   position: relative;
-  background-image: url("../properties/airTerjunSalodik.jpg");
+  background-image: url("../properties/matantimali2.jpg");
   background-size: contain;
-  background-position-y: 40em;
+  background-position-y:40em;
   padding-bottom: 80%;
 }
 
@@ -58,7 +58,7 @@ body {
   bottom: 0%;
   height: 80%;
   width: 100%;
-  background: linear-gradient(to top, rgb(8, 69, 10) 87%,transparent );  
+  background: linear-gradient(to top, rgb(68, 133, 78) 87%,transparent );  
 }
 
 .nav-main h4{
@@ -92,7 +92,7 @@ body {
 }
 
 .link-destination a:hover{
-  background: rgb(122, 224, 144);
+  background: rgb(172, 245, 192);
   transition: 1s;
   color: rgb(0, 0, 0);
   box-shadow: 0px 5px 5px rgb(0, 0, 0);
@@ -109,14 +109,15 @@ body {
 .penjelasan span{
   position: absolute;
   top: 5%;
-  left: 44%;
+  left: 32%;
   font-size: 30px;
 }
 
 .penjelasan p{
   position: absolute;
   top: 50px;
-  left: 15%;
+  left: 25%;
+  width: 50%;
   text-align: center;
 }
 .lokasi{
@@ -148,7 +149,7 @@ body {
   position: absolute;
   top: 8px;
   left: 47%;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .lokasi ul{
@@ -188,7 +189,7 @@ body {
   position: absolute;
   top: 8px;
   left: 47%;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .harga ul{
@@ -228,7 +229,7 @@ body {
   position: absolute;
   top: 8px;
   left: 47%;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .dayaTarik ul{
@@ -269,7 +270,7 @@ body {
   position: absolute;
   top: 8px;
   left: 47%;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .tips ul{
@@ -282,7 +283,7 @@ body {
 
 footer{
     height: 20vh;
-    background-color: rgb(8, 69, 10);
+    background-color: rgb(68, 133, 78);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -331,7 +332,7 @@ html, body {
 }
 
 body {
-  background-image: url("../properties/airTerjunSalodik.jpg");
+  background-image: url("../properties/matantimali2.jpg");
   background-size: 100%; 
   background-position-y: 40%;
 }
@@ -366,9 +367,9 @@ body {
 
 .main{
   position: relative;
-  background-image: url("../properties/airTerjunSalodik.jpg");
+  background-image: url("../properties/matantimali2.jpg");
   background-size: 150%;
-  background-position-y: 30vh;
+  background-position-y: 38vh;
   background-position-x: 90vh;
   padding-bottom: 150%;
 }
@@ -382,13 +383,13 @@ body {
   width: 100%;
   /* background-color: aqua; */
   z-index: 0;
-  background: linear-gradient(to top, rgb(8, 69, 10) 87%,transparent );  
+  background: linear-gradient(to top, rgb(68, 133, 78) 87%,transparent );  
 }
 
 .nav-main h4{
   position: relative;
   top: 50px;
-  width: 76%;
+  width: 72%;
   text-align: center;
   color: azure;
   font-size: smaller;
@@ -418,12 +419,11 @@ body {
 }
 
 .link-destination a:hover{
-  background: rgb(35, 133, 169);
+  background: rgb(172, 245, 192);
   transition: 1s;
   color: rgb(0, 0, 0);
-  box-shadow: 0px 5px 5px rgb(65, 20, 20);
+  box-shadow: 0px 5px 5px rgb(0, 0, 0);
 }
-
 .penjelasan{
   position: absolute;
   top: 10%;
@@ -435,14 +435,16 @@ body {
 .penjelasan span{
   position: absolute;
   top: 8%;
-  left: 34%;
-  font-size: large;
+  left: 20%;
+  width:fit-content;
+  font-size: small;
 }
 
 .penjelasan p{
   position: absolute;
   top: 40px;
-  left: 0px;
+  left: 15px;
+  width: 90%;
   text-align: center;
   font-size: 10px;
 }
@@ -475,7 +477,7 @@ body {
   position: absolute;
   top: 3px;
   left: 37%;
-  font-size: 20px;
+  font-size: 19px;
 }
 
 .lokasi ul{
@@ -612,7 +614,7 @@ body {
 
 footer{
     height: 2vh;
-    background-color: rgb(8, 69, 10);
+    background-color: rgb(68, 133, 78);
     display: flex;
     flex-direction: column;
     justify-content: center;
