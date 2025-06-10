@@ -16,14 +16,15 @@ body {
 
 /* nanti warnanya kasi sesuai dengan warna bacgroundnya */
 .header{
-  /* background-color: aqua; */
-  padding-bottom: 6%;
+  background-color: aqua;
 }
 
 .nav-head{
   position: fixed;
-  height: 20%;
+  z-index: 10000;
+  height: 50px;
   width: 100%;
+<<<<<<< HEAD
   background: rgba(177, 237, 209, 0.3);
   backdrop-filter: blur(3px);
 }
@@ -31,17 +32,34 @@ body {
 .nav-link{
   position: relative;
   top: 15px;
+=======
+  background-color: #1f7d53a9;
+  display: fle;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-link{
+  position: fixed;
+  top: 10px;
+>>>>>>> f839266a54a22ab75816bab4e6dbaa002c323895
   display: flex;
+  justify-content: center;
   gap: 2em;
+<<<<<<< HEAD
   left: 33em;
   width: 30em;
   justify-content: center;
+=======
+  right: 2em;
+  color: white;
+>>>>>>> f839266a54a22ab75816bab4e6dbaa002c323895
 }
 
 .nav-link a{
   text-decoration: none;
-  color: black;
-  font-size: 20px;
+  color: white;
+  align-items: center;
 }
 
 .main{
