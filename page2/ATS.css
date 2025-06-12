@@ -1,135 +1,343 @@
-*{
-  padding:0;
+* {
+  padding: 0;
   margin: 0;
 }
 
-html, body {
+html,
+body {
   max-width: 100vw;
   overflow-x: hidden;
 }
 
 body {
-overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 /* nanti warnanya kasi sesuai dengan warna bacgroundnya */
-header{
-    left: 0;
-    right: 0;
-    top: 0;
-    background-color: #1f7d53a9;
-    position: fixed;
+header {
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: #1f7d53a9;
+  position: fixed;
 }
-.navbar{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1.5em;
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5em;
 }
-.navlink{
-    display: flex;
-    justify-content: space-around;
-    gap: 3em;
+.navlink {
+  display: flex;
+  justify-content: space-around;
+  gap: 3em;
 }
-.navlink a{
-    color: #ffffff;
-    text-decoration: none;
+.navlink a {
+  color: #ffffff;
+  text-decoration: none;
 }
-.navlink a:hover{
-    color: #1c1b1b;
+.navlink a:hover {
+  color: #1c1b1b;
 }
-.navbtn{
-    display: none;
+.navbtn {
+  display: none;
 }
 
-.main{
+.main {
   padding: 2em;
   display: flex;
   justify-content: center;
   align-items: end;
   height: 70vh;
   background-repeat: no-repeat;
-  background-image: linear-gradient(to top, #1c1b1b, 40%, transparent), url("../properties/airTerjunSalodik.jpg");
+  background-image: linear-gradient(to top, #1c1b1b, 40%, transparent),
+    url("../properties/airTerjunSalodik.jpg");
   background-size: cover;
   background-position: center;
 }
 
-.nav-main{
+.nav-main {
   justify-items: center;
 }
 
-.nav-main h4{
-  width: 59.8%;
+.nav-main h4 {
+  width: 100%;
   text-align: center;
   color: rgb(161, 161, 161);
   background-color: black;
-  
 }
 
-.link-destination{
+.link-destination {
   height: 8%;
   display: flex;
-  justify-content: center;    
-  align-items: center; 
+  justify-content: center;
+  align-items: center;
 }
 
-.link-destination a{
+.link-destination a {
   color: white;
   padding: 2em 3em;
   text-decoration: none;
   text-align: center;
   background: rgba(255, 255, 255, 0.3);
-  backdrop-filter: blur(7px);            
+  backdrop-filter: blur(7px);
   border: 1px solid rgb(0, 0, 0);
   transition: 1s;
 }
 
-.link-destination a:hover{
+.link-destination a:hover {
   background: rgb(122, 224, 144);
   transition: 1s;
   color: rgb(0, 0, 0);
   box-shadow: 0px 5px 5px rgb(0, 0, 0);
 }
 
-.penjelasan{
+.penjelasan {
   text-align: center;
   padding: 3em;
 }
 
-.penjelasan span{
-
+.penjelasan span {
   left: 44%;
   font-size: 30px;
 }
 
-.penjelasan p{
+.penjelasan p {
   left: 15%;
   text-align: center;
 }
 
-section{
-color: white;
-background-color: #1c1b1b;
+section {
+  color: white;
+  background-color: #1c1b1b;
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
 }
-.container > .flex-row:first-child .card{
-  flex-direction: row-reverse; 
+.container > .flex-row:first-child .card {
+  flex-direction: row-reverse;
 }
 
 .flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.card {
+  flex: 1 1 300px; /* Responsive flex grow/shrink with minimum width */
+  max-width: 500px;
+  background-color: #f9f9f93b;
+  backdrop-filter: blur(7px);
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Ensure consistent height using Flexbox */
+.card > div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 1rem;
+}
+.card > div:first-of-type {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 1rem;
+}
+
+.card img {
+  width: 30%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card span {
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+}
+
+.card ul {
+  font-size: 12px;
+  padding-left: 1rem;
+}
+
+footer {
+  height: 20vh;
+  background-color: #1f7d53;
+  background: linear-gradient(to bottom, #1c1b1b, 40%, #1f7d53);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 30px 10px;
+}
+.socialMedia {
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+  margin: 10px;
+}
+.socialMedia a {
+  color: #ffffff;
+}
+.socialMedia a:hover {
+  color: #1c1b1b;
+}
+.links {
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+}
+.links a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.links a:hover {
+  color: #1c1b1b;
+}
+.credit {
+  color: #ffffff;
+  margin: 10px;
+}
+.credit p:hover {
+  color: #1c1b1b;
+}
+.credit a {
+  color: #1c1b1b;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 428px) {
+  header {
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #1f7d53a9;
+    position: fixed;
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5em;
+  }
+  .navlink {
+    display: flex;
+    justify-content: space-around;
+    font-size: 10px;
+    gap: 3em;
+  }
+  .navlink a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .navlink a:hover {
+    color: #1c1b1b;
+  }
+  .navbtn {
+    display: none;
+  }
+
+  .main {
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to top, #1c1b1b, 40%, transparent),
+      url("../properties/airTerjunSalodik.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .nav-main {
+    justify-items: center;
+  }
+
+  .nav-main h4 {
+    width: 100%;
+    text-align: center;
+    color: rgb(161, 161, 161);
+    background-color: black;
+  }
+
+  .link-destination {
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .link-destination a {
+    color: white;
+    padding: 10px 5px;
+    text-decoration: none;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(7px);
+    border: 1px solid rgb(0, 0, 0);
+    transition: 1s;
+  }
+
+  .link-destination a:hover {
+    background: rgb(122, 224, 144);
+    transition: 1s;
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 5px 5px rgb(0, 0, 0);
+  }
+
+  .penjelasan {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .penjelasan span {
+    left: 44%;
+    font-size: 30px;
+  }
+
+  .penjelasan p {
+    left: 15%;
+    text-align: center;
+    font-size: small;
+  }
+
+  section {
+    color: white;
+    background-color: #1c1b1b;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  .container > .flex-row:first-child .card {
+    flex-direction: row-reverse;
+  }
+
+  .flex-row {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
     margin-bottom: 2rem;
-}
+  }
 
-.card {
+  .card {
     flex: 1 1 300px; /* Responsive flex grow/shrink with minimum width */
     max-width: 500px;
     background-color: #f9f9f93b;
@@ -137,407 +345,85 @@ background-color: #1c1b1b;
     border-radius: 10px;
     overflow: hidden;
     display: flex;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
 
-/* Ensure consistent height using Flexbox */
-.card > div {
+
+  .card > div {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 1em;
     padding: 1rem;
-}
-.card > div:first-of-type {
+  }
+  .card > div:first-of-type {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 1em;
     padding: 1rem;
-}
+  }
 
-.card img {
+  .card img {
     width: 30%;
     height: 100%;
     object-fit: cover;
-}
+  }
 
-.card span {
-  font-size: 20px;
+  .card span {
+    font-size: 20px;
     font-weight: bold;
     display: block;
-}
+  }
 
-.card ul {
-  font-size: 12px;
+  .card ul {
+    font-size: 12px;
     padding-left: 1rem;
-}
+  }
 
-
-footer{
+  footer {
     height: 20vh;
-    background-color: #1F7D53;
-    background: linear-gradient(to bottom, #1c1b1b, 40%,  #1F7D53);
+    background-color: #1f7d53;
+    background: linear-gradient(to bottom, #1c1b1b, 40%, #1f7d53);
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     padding: 30px 10px;
-}
-.socialMedia{
+  }
+  .socialMedia {
     display: flex;
     gap: 2em;
     justify-content: center;
     margin: 10px;
-}
-.socialMedia a{
-    color:#ffffff;
-}
-.socialMedia a:hover{
-    color: #1c1b1b;
-}
-.links{
-    display: flex;
-    gap: 2em;  
-    justify-content: center; 
-}
-.links a{
-    color:#ffffff;
-    text-decoration: none;
-}
-.links a:hover{
-    color: #1c1b1b;
-}
-.credit{
+  }
+  .socialMedia a {
     color: #ffffff;
-    margin: 10px;
-}
-.credit p:hover{
+  }
+  .socialMedia a:hover {
     color: #1c1b1b;
-}
-.credit a{
-    color: #1c1b1b;
-    text-decoration: none;
-}
-
-
-@media  screen and (max-width: 400px) {
-*{
-  padding:0;
-  margin: 0;
-}
-
-html, body {
-  max-width: 140vw;
-  overflow-x: hidden;
-}
-
-body {
-  background-image: url("../properties/airTerjunSalodik.jpg");
-  background-size: 100%; 
-  background-position-y: 40%;
-}
-
-  /* nanti warnanya kasi sesuai dengan warna bacgroundnya */
-.header{
-  /* background-color: aqua; */
-  padding-bottom: 12%;
-}
-
-.nav-head{
-  position: fixed;
-  height: 20%;
-  width: 100%;
-  background: rgba(158, 188, 203, 0.3);
-  backdrop-filter: blur(3px);
-}
-
-.nav-link{
-  position: absolute;
-  top: 10px;
-  left: -5vh;
-  display: flex;
-  gap: 2em;
-}
-
-.nav-link a{
-  text-decoration: none;
-  color: black;
-  font-size: small;
-}
-
-.main{
-  background-image: url("../properties/airTerjunSalodik.jpg");
-  background-size: cover;
-  background-position: center;
-  padding-bottom: 10em;
-}
-
-.nav-main{
-  justify-items: center;
-  padding-bottom: 100%;
-  width: 100%;
-  /* background-color: aqua; */
-  z-index: 0;
-  background: linear-gradient(to top, rgb(8, 69, 10) 87%,transparent );  
-}
-
-.nav-main h4{
-  position: relative;
-  top: 50px;
-  width: 76%;
-  text-align: center;
-  color: azure;
-  font-size: smaller;
-  background-color: black;
-}
-
-.link-destination{
-  margin-top: 40px;
-  height: 8%;
-  width: 100%;
-  display: flex;
-  justify-content: center;    
-  align-items: center; 
-}
-
-.link-destination a{
-  color: white;
-  text-decoration: none;
-  padding: 5px 8px;
-  text-align: center;
-  font-size: small;
-  background: rgba(255, 255, 255, 0.3);
-  backdrop-filter: blur(7px);            
-  border: 1px solid rgb(0, 0, 0);
-  transition: 1s;
-  /* font-size: small; */
-}
-
-.link-destination a:hover{
-  background: rgb(35, 133, 169);
-  transition: 1s;
-  color: rgb(0, 0, 0);
-  box-shadow: 0px 5px 5px rgb(65, 20, 20);
-}
-
-.penjelasan{
-  width: 100%;
-}
-
-.penjelasan span{
-  font-size: large;
-}
-
-.penjelasan p{
-  text-align: center;
-  font-size: 10px;
-}
-
-.lokasi{
-  position: absolute;
-  top: 29%;
-  left: 5%;
-  width: 90%;
-  height: 15%;
-  background-color: rgba(255, 255, 255, 0.3);
-  backdrop-filter: blur(7px);
-  border-radius: 10px;
-}
-
-.lokasi img{
-  width: 35%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 10px;
-  transition: 1s;
-}
-
-.lokasi img:hover{
-  transition: 1s;
-  color: rgb(0, 0, 0);
-  box-shadow: 0px 5px 5px black ;
-}
-
-.lokasi span{
-  position: absolute;
-  top: 3px;
-  left: 37%;
-  font-size: 20px;
-}
-
-.lokasi ul{
-  position: absolute;
-  top: 25px;
-  left: 40%;
-  width: 56%;
-  text-align: justify;
-  font-size: 65%;
-}
-
-.harga{
-  position: absolute;
-  top: 46%;
-  left: 5%;
-  width: 90%;
-  height: 15%;
-  background-color: rgba(255, 255, 255, 0.3);
-  backdrop-filter: blur(7px);
-  border-radius: 10px;
-}
-
-.harga img{
-  width: 35%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 10px;
-  transition: 1s;
-}
-
-.harga img:hover{
-  transition: 1s;
-  color: rgb(0, 0, 0);
-  box-shadow: 0px 5px 5px black ;
-}
-
-.harga span{
-  position: absolute;
-  top: 3px;
-  left: 37%;
-  font-size: 20px;
-}
-
-.harga ul{
-  position: absolute;
-  top: 25px;
-  left: 40%;
-  width: 56%;
-  text-align: justify;
-  font-size: 64%;
-}
-
-.dayaTarik{
-  position: absolute;
-  top: 63%;
-  left: 5%;
-  width: 90%;
-  height: 15%;
-  background-color: rgba(255, 255, 255, 0.3);
-  backdrop-filter: blur(7px);
-  border-radius: 10px;
-}
-
-.dayaTarik img{
-  width: 35%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 10px;
-  transition: 1s;
-}
-
-.dayaTarik img:hover{
-  transition: 1s;
-  color: rgb(0, 0, 0);
-  box-shadow: 0px 5px 5px black ;
-}
-
-.dayaTarik span{
-  position: absolute;
-  top: 3px;
-  left: 37%;
-  font-size: 20px;
-}
-
-.dayaTarik ul{
-  position: absolute;
-  top: 26px;
-  left: 40%;
-  width: 56%;
-  text-align: justify;
-  font-size: 58%;
-}
-
-.tips{
-  position: absolute;
-  top: 80%;
-  left: 5%;
-  width: 90%;
-  height: 15%;
-  background-color: rgba(255, 255, 255, 0.3);
-  backdrop-filter: blur(7px);
-  border-radius: 10px;
-}
-
-.tips img{
-  width: 35%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 10px;
-  transition: 1s;
-}
-
-.tips img:hover{
-  transition: 1s;
-  color: rgb(0, 0, 0);
-  box-shadow: 0px 5px 5px black ;
-}
-
-.tips span{
-  position: absolute;
-  top: 3px;
-  left: 37%;
-  font-size: 20px;
-}
-
-.tips ul{
-  position: absolute;
-  top: 25px;
-  left: 40%;
-  width: 56%;
-  text-align: justify;
-  font-size: 65%;
-}
-
-footer{
-    height: 2vh;
-    background-color: rgb(8, 69, 10);
+  }
+  .links {
     display: flex;
-    flex-direction: column;
+    gap: 2em;
     justify-content: center;
-    text-align: center;
-    padding: 40px 106px;
-    position: absolute;
-    font-size: 7px;
-}
-.socialMedia{
-    padding: 10px 0px;
-    
-}
-.socialMedia a{
-    color:#ffffff;
-    padding: 10px;
-    height: 20%;
-}
-.socialMedia a:hover{
-    color: #1c1b1b;
-}
-.links a{
-    color:#ffffff;
-    margin: 20px;
+  }
+  .links a {
+    color: #ffffff;
     text-decoration: none;
-}
-.links a:hover{
+  }
+  .links a:hover {
     color: #1c1b1b;
-}
-.credit{
+  }
+  .credit {
     color: #ffffff;
     margin: 10px;
-}
-.credit p:hover{
+  }
+  .credit p:hover {
     color: #1c1b1b;
-}
-.credit a{
+  }
+  .credit a {
     color: #1c1b1b;
     text-decoration: none;
-}
+  }
 }
