@@ -29,10 +29,9 @@ header{
 }
 .navlink a:hover{
     color: #1c1b1b;
+    cursor: pointer;
 }
-.navbtn{
-    display: none;
-}
+
 .sec1{
     flex-wrap: nowrap;
     height: 100vh;
@@ -290,6 +289,7 @@ footer{
 }
 .links a:hover{
     color: #1c1b1b;
+    cursor: pointer;
 }
 .credit{
     color: #ffffff;
@@ -297,6 +297,7 @@ footer{
 }
 .credit p:hover{
     color: #1c1b1b;
+    cursor: pointer;
 }
 .credit a{
     color: #1c1b1b;
@@ -305,7 +306,7 @@ footer{
 
 @media screen and (max-width: 768px) {
     *{
-        font-size: 75%;
+        font-size: 85%;
     }
     .sec1{
         font-size: 100%;
@@ -320,7 +321,7 @@ footer{
         padding: 10px;
     }
     .sec1 span{
-        font-size: 95%;
+        font-size: 90%;
     }
     .sec2{
         flex-wrap: wrap;

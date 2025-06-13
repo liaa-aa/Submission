@@ -13,7 +13,6 @@ body {
   overflow-x: hidden;
 }
 
-/* nanti warnanya kasi sesuai dengan warna bacgroundnya */
 header {
   left: 0;
   right: 0;
@@ -38,6 +37,7 @@ header {
 }
 .navlink a:hover {
   color: #1c1b1b;
+  cursor: pointer;
 }
 .navbtn {
   display: none;
@@ -130,7 +130,7 @@ section {
 }
 
 .card {
-  flex: 1 1 300px; /* Responsive flex grow/shrink with minimum width */
+  flex: 1 1 300px;
   max-width: 500px;
   background-color: #f9f9f93b;
   backdrop-filter: blur(7px);
@@ -140,7 +140,6 @@ section {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Ensure consistent height using Flexbox */
 .card > div {
   flex: 1;
   display: flex;
@@ -206,6 +205,7 @@ footer {
 }
 .links a:hover {
   color: #1c1b1b;
+  cursor: pointer;
 }
 .credit {
   color: #ffffff;
@@ -213,13 +213,17 @@ footer {
 }
 .credit p:hover {
   color: #1c1b1b;
+  cursor: pointer;
 }
 .credit a {
   color: #1c1b1b;
   text-decoration: none;
 }
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 768px) {
+  *{
+    font-size: 85%;
+  }
   header {
     left: 0;
     right: 0;
@@ -236,7 +240,6 @@ footer {
   .navlink {
     display: flex;
     justify-content: space-around;
-    font-size: 10px;
     gap: 3em;
   }
   .navlink a {
@@ -245,6 +248,7 @@ footer {
   }
   .navlink a:hover {
     color: #1c1b1b;
+    cursor: pointer;
   }
   .navbtn {
     display: none;
@@ -258,7 +262,7 @@ footer {
     height: 40vh;
     background-repeat: no-repeat;
     background-image: linear-gradient(to top, #1c1b1b, 40%, transparent),
-      url("../properties/tanjungKarang3.jpg");
+      url("/Submission/properties/tanjungKarang.jpg");
     background-size: cover;
     background-position: center;
   }
@@ -306,13 +310,12 @@ footer {
 
   .penjelasan span {
     left: 44%;
-    font-size: 30px;
+    font-size: 95%;
   }
 
   .penjelasan p {
     left: 15%;
     text-align: center;
-    font-size: small;
   }
 
   section {
@@ -338,7 +341,7 @@ footer {
   }
 
   .card {
-    flex: 1 1 300px; /* Responsive flex grow/shrink with minimum width */
+    flex: 1 1 300px;
     max-width: 500px;
     background-color: #f9f9f93b;
     backdrop-filter: blur(7px);
@@ -347,7 +350,6 @@ footer {
     display: flex;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-
 
   .card > div {
     flex: 1;
@@ -371,13 +373,13 @@ footer {
   }
 
   .card span {
-    font-size: 20px;
+    font-size: 80%;
     font-weight: bold;
     display: block;
   }
 
   .card ul {
-    font-size: 12px;
+    font-size: 80%;
     padding-left: 1rem;
   }
 
@@ -391,14 +393,9 @@ footer {
     text-align: center;
     padding: 30px 10px;
   }
-  .socialMedia {
-    display: flex;
-    gap: 2em;
-    justify-content: center;
-    margin: 10px;
-  }
-  .socialMedia a {
-    color: #ffffff;
+  .socialMedia a svg{
+    width: 15px;
+    height: 15px;
   }
   .socialMedia a:hover {
     color: #1c1b1b;
@@ -414,6 +411,7 @@ footer {
   }
   .links a:hover {
     color: #1c1b1b;
+    cursor: pointer;
   }
   .credit {
     color: #ffffff;
@@ -421,9 +419,11 @@ footer {
   }
   .credit p:hover {
     color: #1c1b1b;
+    cursor: pointer;
   }
   .credit a {
     color: #1c1b1b;
     text-decoration: none;
   }
 }
+
